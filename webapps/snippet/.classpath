@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="WEB-INF/src/main/java"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/httpclient-4.0-beta2.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/httpcore-4.0-beta3.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/oauth-20090825.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/oauth-consumer-20090617.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/oauth-httpclient4-20090617.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/janice/Desktop/masterproject/google-api-java-client-1.7.0-beta/google-api-client-1.7.0-beta-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/janice/Desktop/masterproject/google-api-java-client-1.7.0-beta/google-api-client-1.7.0-beta.jar"/>
+	<classpathentry kind="lib" path="/Users/janice/Desktop/masterproject/google-api-java-client-1.7.0-beta/google-api-client-servlet-1.7.0-beta-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/janice/Desktop/masterproject/google-api-java-client-1.7.0-beta/google-api-client-servlet-1.7.0-beta.jar"/>
+	<classpathentry kind="lib" path="/Users/janice/Desktop/masterproject/apache-tomcat-6.0.35/lib/servlet-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="WEB-INF/src/bin"/>
+</classpath>

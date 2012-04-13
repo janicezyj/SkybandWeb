@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="WEB-INF/src"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/beanfactory-3.0.4.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-fileupload-1.2.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/formbeanfactory_2.1.0.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/mysql-connector-java-5.1.14-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/tomcat/webapps/HW4/WEB-INF/lib/jstl-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/tomcat/webapps/HW4/WEB-INF/lib/standard-1.1.2.jar"/>
+	<classpathentry kind="output" path="WEB-INF/classes"/>
+</classpath>

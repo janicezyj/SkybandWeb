@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5/trunk/src/main/java/com/googlecodesamples
+END
+ShowTablesServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/src/main/java/com/googlecodesamples/ShowTablesServlet.java
+END
+TableData.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/src/main/java/com/googlecodesamples/TableData.java
+END
+FusionTablesAccessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/src/main/java/com/googlecodesamples/FusionTablesAccessor.java
+END
+TableStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/src/main/java/com/googlecodesamples/TableStore.java
+END
+AddTableServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/src/main/java/com/googlecodesamples/AddTableServlet.java
+END
+OAuthConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/4/trunk/src/main/java/com/googlecodesamples/OAuthConfig.java
+END
+SnippetServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/src/main/java/com/googlecodesamples/SnippetServlet.java
+END
+OAuthAccessFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/src/main/java/com/googlecodesamples/OAuthAccessFilter.java
+END
+ListRegisteredTablesServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/src/main/java/com/googlecodesamples/ListRegisteredTablesServlet.java
+END
+RegisteredTableFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/src/main/java/com/googlecodesamples/RegisteredTableFilter.java
+END

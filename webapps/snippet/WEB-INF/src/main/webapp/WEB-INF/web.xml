@@ -1,0 +1,61 @@
+<!DOCTYPE web-app PUBLIC
+          "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+          "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <filter>
+    <filter-name>OAuthAccessFilter</filter-name>
+    <filter-class>com.googlecodesamples.OAuthAccessFilter</filter-class>
+  </filter>
+  <filter>
+    <filter-name>RegisteredTableFilter</filter-name>
+    <filter-class>com.googlecodesamples.RegisteredTableFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>OAuthAccessFilter</filter-name>
+    <servlet-name>AddTableServlet</servlet-name>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>OAuthAccessFilter</filter-name>
+    <servlet-name>ShowTablesServlet</servlet-name>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>RegisteredTableFilter</filter-name>
+    <servlet-name>SnippetServlet</servlet-name>
+  </filter-mapping>
+  <servlet>
+    <servlet-name>AddTableServlet</servlet-name>
+    <servlet-class>com.googlecodesamples.AddTableServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowTablesServlet</servlet-name>
+    <servlet-class>com.googlecodesamples.ShowTablesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SnippetServlet</servlet-name>
+    <servlet-class>com.googlecodesamples.SnippetServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListRegisteredTablesServlet</servlet-name>
+    <servlet-class>com.googlecodesamples.ListRegisteredTablesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddTableServlet</servlet-name>
+    <url-pattern>/add_table</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowTablesServlet</servlet-name>
+    <url-pattern>/show_tables</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SnippetServlet</servlet-name>
+    <url-pattern>/snippet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListRegisteredTablesServlet</servlet-name>
+    <url-pattern>/list_registered</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>/index.html</welcome-file>
+  </welcome-file-list>
+</web-app>

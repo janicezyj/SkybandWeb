@@ -1,0 +1,26 @@
+Feb 11, 2012 3:16:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Feb 11, 2012 3:37:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: stop: Stopping web application at '/SkybandWeb'
+Feb 11, 2012 3:37:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Feb 11, 2012 3:38:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: start: Starting web application at '/SkybandWeb'
+Feb 11, 2012 3:38:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Feb 11, 2012 3:50:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: stop: Stopping web application at '/SkybandWeb'
+Feb 11, 2012 3:50:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Feb 11, 2012 3:50:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: start: Starting web application at '/SkybandWeb'
+Feb 11, 2012 3:50:14 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Feb 11, 2012 10:26:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: stop: Stopping web application at '/SkybandWeb'
+Feb 11, 2012 10:26:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Feb 11, 2012 10:26:40 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: start: Starting web application at '/SkybandWeb'
+Feb 11, 2012 10:26:40 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'

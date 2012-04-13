@@ -1,0 +1,1635 @@
+Feb 10, 2012 12:49:16 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Feb 10, 2012 12:49:17 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 12:49:17 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1069 ms
+Feb 10, 2012 12:49:17 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 31 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 12:49:17 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 12:49:17 AM org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+SEVERE: Exception processing Global JNDI Resources
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 12:49:17 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 10, 2012 12:49:17 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 10, 2012 12:49:17 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 31 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 12:49:17 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 12:49:17 AM org.apache.catalina.realm.UserDatabaseRealm start
+SEVERE: Exception looking up UserDatabase under key UserDatabase
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 12:49:17 AM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  No UserDatabase component found under key UserDatabase
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:261)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 12:49:17 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 95 ms
+Feb 10, 2012 12:53:39 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 12:53:40 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 10, 2012 12:53:40 AM org.apache.catalina.startup.Catalina stop
+SEVERE: Catalina.stop
+LifecycleException:  Pipeline has not been started
+	at org.apache.catalina.core.StandardPipeline.stop(StandardPipeline.java:257)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1103)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:468)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:604)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:788)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:662)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:706)
+Feb 10, 2012 12:53:45 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Feb 10, 2012 12:53:46 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 12:53:46 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1042 ms
+Feb 10, 2012 12:53:46 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 10, 2012 12:53:46 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 10, 2012 12:53:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Feb 10, 2012 12:53:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Feb 10, 2012 12:53:46 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory host-manager
+Feb 10, 2012 12:53:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory manager
+Feb 10, 2012 12:53:47 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Feb 10, 2012 12:53:47 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 12:53:47 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Feb 10, 2012 12:53:47 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/40  config=null
+Feb 10, 2012 12:53:47 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1574 ms
+Feb 10, 2012 1:01:18 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:01:19 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 10, 2012 1:01:19 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:01:35 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Feb 10, 2012 1:01:36 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:01:36 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1014 ms
+Feb 10, 2012 1:01:36 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 32 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:01:36 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:01:36 AM org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+SEVERE: Exception processing Global JNDI Resources
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:01:36 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 10, 2012 1:01:36 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 10, 2012 1:01:36 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 32 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:01:36 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:01:36 AM org.apache.catalina.realm.UserDatabaseRealm start
+SEVERE: Exception looking up UserDatabase under key UserDatabase
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:01:36 AM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  No UserDatabase component found under key UserDatabase
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:261)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:01:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 95 ms
+Feb 10, 2012 1:02:54 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:02:55 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 10, 2012 1:02:55 AM org.apache.catalina.startup.Catalina stop
+SEVERE: Catalina.stop
+LifecycleException:  Pipeline has not been started
+	at org.apache.catalina.core.StandardPipeline.stop(StandardPipeline.java:257)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1103)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:468)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:604)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:788)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:662)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:706)
+Feb 10, 2012 1:03:00 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Feb 10, 2012 1:03:00 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:03:00 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 995 ms
+Feb 10, 2012 1:03:00 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 30 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:03:00 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:03:00 AM org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+SEVERE: Exception processing Global JNDI Resources
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:03:00 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 10, 2012 1:03:00 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 10, 2012 1:03:00 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 30 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:03:00 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:03:00 AM org.apache.catalina.realm.UserDatabaseRealm start
+SEVERE: Exception looking up UserDatabase under key UserDatabase
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:03:00 AM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  No UserDatabase component found under key UserDatabase
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:261)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:03:00 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 91 ms
+Feb 10, 2012 1:06:12 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:06:13 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 10, 2012 1:06:13 AM org.apache.catalina.startup.Catalina stop
+SEVERE: Catalina.stop
+LifecycleException:  Pipeline has not been started
+	at org.apache.catalina.core.StandardPipeline.stop(StandardPipeline.java:257)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1103)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:468)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:604)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:788)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:662)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:706)
+Feb 10, 2012 1:06:16 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Feb 10, 2012 1:06:17 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:06:17 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1043 ms
+Feb 10, 2012 1:06:17 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 30 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:06:17 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:06:17 AM org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+SEVERE: Exception processing Global JNDI Resources
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:06:17 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 10, 2012 1:06:17 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 10, 2012 1:06:17 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 30 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:06:17 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:06:17 AM org.apache.catalina.realm.UserDatabaseRealm start
+SEVERE: Exception looking up UserDatabase under key UserDatabase
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:06:17 AM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  No UserDatabase component found under key UserDatabase
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:261)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:06:17 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 90 ms
+Feb 10, 2012 1:06:20 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:06:21 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 10, 2012 1:06:21 AM org.apache.catalina.startup.Catalina stop
+SEVERE: Catalina.stop
+LifecycleException:  Pipeline has not been started
+	at org.apache.catalina.core.StandardPipeline.stop(StandardPipeline.java:257)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1103)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:468)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:604)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:788)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:662)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:706)
+Feb 10, 2012 1:09:05 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Feb 10, 2012 1:09:05 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:09:05 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 972 ms
+Feb 10, 2012 1:09:06 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 10, 2012 1:09:06 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 10, 2012 1:09:06 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Feb 10, 2012 1:09:06 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Feb 10, 2012 1:09:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Feb 10, 2012 1:09:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Feb 10, 2012 1:09:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Feb 10, 2012 1:09:07 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:09:07 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Feb 10, 2012 1:09:07 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/33  config=null
+Feb 10, 2012 1:09:07 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1342 ms
+Feb 10, 2012 1:13:35 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:13:36 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 10, 2012 1:13:36 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:13:50 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Feb 10, 2012 1:13:51 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:13:51 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 799 ms
+Feb 10, 2012 1:13:51 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 30 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:13:51 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:13:51 AM org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+SEVERE: Exception processing Global JNDI Resources
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:13:51 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 10, 2012 1:13:51 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 10, 2012 1:13:51 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 30 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:13:51 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:13:51 AM org.apache.catalina.realm.UserDatabaseRealm start
+SEVERE: Exception looking up UserDatabase under key UserDatabase
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:13:51 AM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  No UserDatabase component found under key UserDatabase
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:261)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:13:51 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 109 ms
+Feb 10, 2012 1:14:58 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:14:59 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 10, 2012 1:14:59 AM org.apache.catalina.startup.Catalina stop
+SEVERE: Catalina.stop
+LifecycleException:  Pipeline has not been started
+	at org.apache.catalina.core.StandardPipeline.stop(StandardPipeline.java:257)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1103)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:468)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:604)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:788)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:662)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:706)
+Feb 10, 2012 1:15:02 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Feb 10, 2012 1:15:03 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:15:03 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1032 ms
+Feb 10, 2012 1:15:03 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 30 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:03 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:03 AM org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+SEVERE: Exception processing Global JNDI Resources
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:03 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 10, 2012 1:15:03 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 10, 2012 1:15:03 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 30 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:03 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:03 AM org.apache.catalina.realm.UserDatabaseRealm start
+SEVERE: Exception looking up UserDatabase under key UserDatabase
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:03 AM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  No UserDatabase component found under key UserDatabase
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:261)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:03 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 71 ms
+Feb 10, 2012 1:15:45 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:15:46 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 10, 2012 1:15:46 AM org.apache.catalina.startup.Catalina stop
+SEVERE: Catalina.stop
+LifecycleException:  Pipeline has not been started
+	at org.apache.catalina.core.StandardPipeline.stop(StandardPipeline.java:257)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1103)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:468)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:604)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:788)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:662)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:706)
+Feb 10, 2012 1:15:49 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Feb 10, 2012 1:15:50 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:15:50 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1120 ms
+Feb 10, 2012 1:15:50 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 34 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:50 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:50 AM org.apache.catalina.mbeans.GlobalResourcesLifecycleListener createMBeans
+SEVERE: Exception processing Global JNDI Resources
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:140)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:113)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:137)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:109)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:81)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:747)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:50 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 10, 2012 1:15:50 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 10, 2012 1:15:50 AM org.apache.tomcat.util.digester.Digester fatalError
+SEVERE: Parse Fatal Error at line 34 column 18: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:195)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:174)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:388)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1414)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:807)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2756)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:648)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:511)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:808)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:737)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:119)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1205)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:50 AM org.apache.naming.NamingContext lookup
+WARNING: Unexpected exception resolving reference
+org.xml.sax.SAXParseException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1231)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:522)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1661)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:409)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:103)
+	at org.apache.naming.factory.ResourceFactory.getObjectInstance(ResourceFactory.java:140)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:304)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:793)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:50 AM org.apache.catalina.realm.UserDatabaseRealm start
+SEVERE: Exception looking up UserDatabase under key UserDatabase
+javax.naming.NamingException: Open quote is expected for attribute "{1}" associated with an  element type  "rolename".
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:805)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:153)
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:253)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:50 AM org.apache.catalina.startup.Catalina start
+SEVERE: Catalina.start: 
+LifecycleException:  No UserDatabase component found under key UserDatabase
+	at org.apache.catalina.realm.UserDatabaseRealm.start(UserDatabaseRealm.java:261)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1049)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 10, 2012 1:15:50 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 94 ms
+Feb 10, 2012 1:17:30 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:17:31 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 10, 2012 1:17:31 AM org.apache.catalina.startup.Catalina stop
+SEVERE: Catalina.stop
+LifecycleException:  Pipeline has not been started
+	at org.apache.catalina.core.StandardPipeline.stop(StandardPipeline.java:257)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1103)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:468)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:604)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:788)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:662)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:706)
+Feb 10, 2012 1:17:35 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Feb 10, 2012 1:17:36 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:17:36 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1031 ms
+Feb 10, 2012 1:17:36 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 10, 2012 1:17:36 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 10, 2012 1:17:36 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Feb 10, 2012 1:17:36 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Feb 10, 2012 1:17:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Feb 10, 2012 1:17:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Feb 10, 2012 1:17:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Feb 10, 2012 1:17:37 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:17:37 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Feb 10, 2012 1:17:37 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/46  config=null
+Feb 10, 2012 1:17:37 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1410 ms
+Feb 10, 2012 1:20:08 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:20:09 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 10, 2012 1:20:09 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:20:54 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Feb 10, 2012 1:20:55 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:20:55 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1003 ms
+Feb 10, 2012 1:20:55 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 10, 2012 1:20:55 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 10, 2012 1:20:55 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Feb 10, 2012 1:20:55 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Feb 10, 2012 1:20:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Feb 10, 2012 1:20:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Feb 10, 2012 1:20:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Feb 10, 2012 1:20:56 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:20:56 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Feb 10, 2012 1:20:56 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/26  config=null
+Feb 10, 2012 1:20:56 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1311 ms
+Feb 10, 2012 1:23:12 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:23:13 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 10, 2012 1:23:13 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:23:17 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Feb 10, 2012 1:23:18 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:23:18 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1115 ms
+Feb 10, 2012 1:23:18 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 10, 2012 1:23:18 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 10, 2012 1:23:18 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Feb 10, 2012 1:23:18 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Feb 10, 2012 1:23:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Feb 10, 2012 1:23:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Feb 10, 2012 1:23:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Feb 10, 2012 1:23:19 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:23:19 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Feb 10, 2012 1:23:19 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/62  config=null
+Feb 10, 2012 1:23:19 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1429 ms
+Feb 10, 2012 1:26:39 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive Photos.war
+Feb 10, 2012 1:26:47 AM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:26:48 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 10, 2012 1:26:48 AM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:26:59 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+Feb 10, 2012 1:27:00 AM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:27:00 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1040 ms
+Feb 10, 2012 1:27:00 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 10, 2012 1:27:00 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 10, 2012 1:27:00 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Feb 10, 2012 1:27:00 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Feb 10, 2012 1:27:00 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive Photos.war
+Feb 10, 2012 1:27:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Feb 10, 2012 1:27:00 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Feb 10, 2012 1:27:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Feb 10, 2012 1:27:01 AM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Feb 10, 2012 1:27:01 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Feb 10, 2012 1:27:01 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/28  config=null
+Feb 10, 2012 1:27:01 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1350 ms
+Feb 10, 2012 1:35:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory SkybandWeb
+Feb 10, 2012 1:37:42 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/SkybandWeb]
+Feb 10, 2012 1:40:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory untitled folder
+Feb 10, 2012 1:41:02 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/untitled folder]
+Feb 10, 2012 1:41:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory SkybandWeb
+Feb 10, 2012 1:41:12 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Reloading context [/SkybandWeb]
